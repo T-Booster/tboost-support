@@ -76,8 +76,8 @@ export default function SupportPage() {
         <div style={{ marginTop: '30px' }}>
           <h3 style={{ color: '#0066cc' }}>Do I need a subscription?</h3>
           <p>
-            MAXI AI offers both free and premium features. Basic tracking is free, while
-            advanced AI insights and unlimited scans require a premium subscription.
+            MAXI AI requires a paid subscription for full access. You can explore the app
+            with a free trial, but a subscription is needed to use all features.
           </p>
         </div>
 
