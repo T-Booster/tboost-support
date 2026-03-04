@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "T Boost AI — Support",
-  description: "Support and help for T Boost AI nutrition tracking app",
+  title: "MAXI AI — Support",
+  description: "Support and help for MAXI AI health optimization app",
 };
 
 export default function RootLayout({
