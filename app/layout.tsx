@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MAXI AI — Support",
-  description: "Support and help for MAXI AI health optimization app",
+  title: "FunFit AI — Support",
+  description: "Support and help for FunFit AI health optimization app",
 };
 
 export default function RootLayout({

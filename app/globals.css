@@ -3,10 +3,36 @@
   --foreground: #171717;
 }
 
+/* Page tokens. Every colour used by the support and legal pages is defined
+   here for BOTH themes — the pages previously hardcoded #333 text, which
+   rendered dark-grey on near-black for anyone whose OS is in dark mode. */
+:root {
+  --text: #333333;
+  --heading: #1a1a1a;
+  --muted: #777777;
+  --rule: #e5e5e5;
+  --rule-strong: #dddddd;
+  --surface: #f5f5f5;
+  --accent: #0066cc;
+  --warn-bg: #fff3cd;
+  --warn-border: #ffc107;
+  --warn-text: #856404;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --text: #d0d0d0;
+    --heading: #f2f2f2;
+    --muted: #9a9a9a;
+    --rule: #262626;
+    --rule-strong: #333333;
+    --surface: #161616;
+    --accent: #5aa9ff;
+    --warn-bg: #2a2410;
+    --warn-border: #b8860b;
+    --warn-text: #e8c96a;
   }
 }
 
