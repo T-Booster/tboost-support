@@ -170,7 +170,7 @@ export default function TermsOfService() {
       <h2 style={h2}>13. Contact</h2>
       <p style={p}>
         INFLUOGEN LLC, Miami, Florida, United States —{" "}
-        <a href="mailto:maxiai@influogen.com" style={contact}>maxiai@influogen.com</a>
+        <a href="mailto:support@funfit.ai" style={contact}>support@funfit.ai</a>
       </p>
     </div>
   );

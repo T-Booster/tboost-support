@@ -32,10 +32,10 @@ export default function SupportPage() {
         </p>
         <p style={{ fontSize: '1.2rem', margin: '15px 0' }}>
           <a
-            href="mailto:maxiai@influogen.com"
+            href="mailto:support@funfit.ai"
             style={{ color: 'var(--accent)', textDecoration: 'none' }}
           >
-            maxiai@influogen.com
+            support@funfit.ai
           </a>
         </p>
         <p style={{ fontSize: '0.95rem', color: 'var(--muted)' }}>

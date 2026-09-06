@@ -31,7 +31,7 @@ export default function PrivacyPolicy() {
       <h2 style={h2}>1. Who we are</h2>
       <p style={p}>
         INFLUOGEN LLC, Miami, Florida, United States. For anything in this policy, contact{" "}
-        <a href="mailto:maxiai@influogen.com" style={contact}>maxiai@influogen.com</a>. We are the
+        <a href="mailto:support@funfit.ai" style={contact}>support@funfit.ai</a>. We are the
         data controller for the information described here.
       </p>
 
@@ -192,7 +192,7 @@ export default function PrivacyPolicy() {
       <p style={p}>
         Wherever you live, you can ask us to give you a copy of your data, correct it, delete
         it, or stop a particular use of it. Email{" "}
-        <a href="mailto:maxiai@influogen.com" style={contact}>maxiai@influogen.com</a> and we
+        <a href="mailto:support@funfit.ai" style={contact}>support@funfit.ai</a> and we
         will respond within 30 days. We will not charge you or degrade your service for asking.
       </p>
       <h3 style={h3}>If you are in the UK, EU or EEA (GDPR)</h3>
@@ -251,7 +251,7 @@ export default function PrivacyPolicy() {
       <h2 style={h2}>13. Contact</h2>
       <p style={p}>
         INFLUOGEN LLC, Miami, Florida, United States —{" "}
-        <a href="mailto:maxiai@influogen.com" style={contact}>maxiai@influogen.com</a>
+        <a href="mailto:support@funfit.ai" style={contact}>support@funfit.ai</a>
       </p>
     </div>
   );
