@@ -39,6 +39,17 @@ export default function DeleteAccount() {
         account&rdquo;. We will confirm and delete your account within 30 days.
       </p>
 
+      <h2 style={h2}>Delete some data but keep your account</h2>
+      <p style={p}>
+        You can delete individual items without closing your account: meals and workouts from
+        <strong> History</strong>, body scans from the scan results, and posts from your profile.
+        To have other specific data deleted, email{" "}
+        <a href="mailto:support@funfit.ai?subject=Delete%20my%20data" style={contact}>
+          support@funfit.ai
+        </a>{" "}
+        from your sign-in address and tell us what to remove. We will do it within 30 days.
+      </p>
+
       <h2 style={h2}>What is deleted</h2>
       <ul style={ul}>
         <li style={li}>Your profile, username, photo and bio.</li>
