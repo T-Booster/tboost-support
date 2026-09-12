@@ -11,7 +11,7 @@ export default function PrivacyPolicy() {
   return (
     <div style={page}>
       <h1 style={h1}>Privacy Policy</h1>
-      <p style={updated}>Last updated: 21 August 2026 · Effective: 21 August 2026</p>
+      <p style={updated}>Last updated: 12 September 2026 · Effective: 12 September 2026</p>
 
       <p style={intro}>
         FunFit AI is a health and fitness app operated by <strong>INFLUOGEN LLC</strong>, a
@@ -25,7 +25,10 @@ export default function PrivacyPolicy() {
         us, including photos of food and of your body, and blood test results if you choose to
         upload them. Some of it is sent to OpenAI so our AI features can analyse it. We store
         it with Supabase. We do not sell your data and we do not use your health data for
-        advertising. You can ask us to delete everything and we will.
+        advertising. If you rate an AI answer we keep the rating, but we only keep the answer
+        itself and your message with it if you switch on{" "}
+        <strong>Help improve our AI</strong> (Settings → AI Data Usage) — it is off unless you
+        turn it on, and turning it off deletes what you shared. You can ask us to delete everything and we will.
       </div>
 
       <h2 style={h2}>1. Who we are</h2>
@@ -76,20 +79,29 @@ export default function PrivacyPolicy() {
         <li style={li}>Basic product analytics: which screens you open and which features you use, together with your age and your stated goal.</li>
       </ul>
 
+      <h3 style={h3}>2.5 Ratings of AI answers</h3>
+      <ul style={ul}>
+        <li style={li}>When you tap thumbs up or thumbs down on an AI answer, we store the rating, which feature it was for (for example the food scanner or the coach), and technical details: your app version, platform and language. If the app asks you for a reason, or records which AI model and version of our instructions produced the answer, we store that too.</li>
+        <li style={li}>A rating on its own contains <strong>no message text, no photo and nothing you wrote</strong>.</li>
+        <li style={li}>Only if you switch on <strong>Help improve our AI</strong> do we also keep, with each rating you give, the AI&rsquo;s answer, the message or description that prompted it (for chats, also the few messages just before it), any comment you write, and details of the result or profile the AI used for that answer (for example the foods and amounts a food scan found). Photos are not included. See section 4.1.</li>
+      </ul>
+
       <h2 style={h2}>3. Why we use it</h2>
       <ul style={ul}>
         <li style={li}>To run the features you asked for: logging food, generating plans, scoring your day, tracking workouts, and answering you in chat.</li>
         <li style={li}>To personalise targets — calories, macros, hydration and training volume — from your profile.</li>
         <li style={li}>To operate social features: leaderboards, communities, following and messaging.</li>
         <li style={li}>To keep the service safe and working, including preventing abuse and diagnosing faults.</li>
+        <li style={li}>To find and fix mistakes in our AI features, using the ratings you give and — only if you opt in — the content you share with them.</li>
         <li style={li}>To manage your subscription and comply with our legal and tax obligations.</li>
       </ul>
       <p style={p}>
         If you are in the UK, EU or EEA, our lawful bases are: <strong>contract</strong> for the
-        core service, <strong>explicit consent</strong> for health data and for AI processing of
-        your photos and lab results, <strong>legitimate interests</strong> for security and
-        product improvement, and <strong>legal obligation</strong> for records we must keep.
-        You can withdraw consent at any time; see section 8.
+        core service; <strong>explicit consent</strong> for health data, for AI processing of
+        your photos and lab results, and for keeping the content you choose to share when you
+        rate an AI answer; <strong>legitimate interests</strong> for security, product
+        improvement and the ratings themselves; and <strong>legal obligation</strong> for
+        records we must keep. You can withdraw consent at any time; see section 8.
       </p>
 
       <h2 style={h2}>4. AI processing, and what goes to OpenAI</h2>
@@ -131,6 +143,22 @@ export default function PrivacyPolicy() {
         Always talk to a qualified healthcare professional before acting on them, and never
         ignore medical advice because of something this app told you.
       </div>
+
+      <h3 style={h3}>4.1 Helping improve FunFit AI (optional)</h3>
+      <p style={p}>
+        Our AI features make mistakes, and the quickest way for us to find them is for you to
+        tell us. Where the app offers it — today, coach and nutrition chat replies and food scan
+        results in the iOS and Android apps — you can rate an AI answer with a thumbs up or thumbs down (see
+        section 2.5). Separately, you can choose to share the content behind your ratings:
+      </p>
+      <ul style={ul}>
+        <li style={li}><strong>Off unless you turn it on.</strong> The <strong>Help improve our AI</strong> switch (Settings → AI Data Usage) starts off. You do not need it for any feature, and turning it on or off does not change what the app does for you.</li>
+        <li style={li}><strong>What it shares.</strong> Only content attached to a rating you actively give: the AI&rsquo;s answer, your message or description (for chats, also the few messages just before it), your comment, and details of the result or profile the AI used. Photos are not included. Nothing is shared for answers you do not rate, and we never include data read from Apple Health or Health Connect.</li>
+        <li style={li}><strong>Who sees it.</strong> Only the people at FunFit AI who work on our AI features. It is never shown to other users, never sold, never used for advertising, and not given to anyone except Supabase, which stores it for us.</li>
+        <li style={li}><strong>How we use it.</strong> To understand what went wrong, improve the instructions our AI features follow, and check that our fixes work. We do not use it to train or fine-tune an AI model, and we do not send it to OpenAI for training. If we ever want to use it in a new way, we will ask you again first.</li>
+        <li style={li}><strong>How long we keep it.</strong> Up to 12 months from when you shared it, then we delete the content. The rating itself, without any content, stays while your account exists.</li>
+        <li style={li}><strong>Changing your mind.</strong> Turn the switch off at any time. We then delete the content you shared under it, usually immediately and always within 30 days. Deleting your account deletes all of it.</li>
+      </ul>
 
       <h2 style={h2}>5. Who else we share data with</h2>
       <p style={p}>
@@ -175,8 +203,9 @@ export default function PrivacyPolicy() {
         visible only to you and the person you are messaging.
       </p>
       <p style={p}>
-        Your body scan photos, your food photos, your lab results and your weight history are{" "}
-        <strong>private</strong> and are never shown to other users.
+        Your body scan photos, your food photos, your lab results, your weight history and
+        anything you share to help improve our AI are <strong>private</strong> and are never
+        shown to other users.
       </p>
 
       <h2 style={h2}>7. How long we keep it</h2>
@@ -184,6 +213,7 @@ export default function PrivacyPolicy() {
         <li style={li}><strong>While your account exists:</strong> your profile, logs, photos and message history stay available so the app can show you your own history.</li>
         <li style={li}><strong>After you delete your account:</strong> we remove your profile, logs, photos, scans, lab results and message content within 30 days.</li>
         <li style={li}><strong>Messages you sent to other people</strong> are replaced with a &ldquo;deleted&rdquo; placeholder rather than removed outright, so other participants&rsquo; conversations stay readable.</li>
+        <li style={li}><strong>Content you shared with AI ratings</strong> is kept for up to 12 months, or until you switch <strong>Help improve our AI</strong> off, whichever comes first. Ratings without content stay while your account exists.</li>
         <li style={li}><strong>Purchase and tax records</strong> are kept for as long as the law requires, typically seven years. These contain no health data.</li>
         <li style={li}><strong>Backups</strong> roll off on their own schedule, within 90 days.</li>
       </ul>
@@ -194,6 +224,8 @@ export default function PrivacyPolicy() {
         it, or stop a particular use of it. Email{" "}
         <a href="mailto:support@funfit.ai" style={contact}>support@funfit.ai</a> and we
         will respond within 30 days. We will not charge you or degrade your service for asking.
+        You can also switch <strong>Help improve our AI</strong> off in Settings → AI Data Usage at any time,
+        which withdraws that consent and deletes what you shared under it.
       </p>
       <h3 style={h3}>If you are in the UK, EU or EEA (GDPR)</h3>
       <p style={p}>
@@ -220,8 +252,9 @@ export default function PrivacyPolicy() {
 
       <h2 style={h2}>9. Security</h2>
       <p style={p}>
-        Data is encrypted in transit. Your body scan photos, lab results, direct messages and
-        voice notes are held in private storage that only your account can read. Access to
+        Data is encrypted in transit. Your body scan photos, lab results, direct messages, voice
+        notes and anything you share with AI ratings are held in private storage that other
+        users cannot read. Access to
         production systems is limited to the people who need it. No system is perfectly secure,
         and we will tell you and the relevant regulator without undue delay if a breach affects
         your data.

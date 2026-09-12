@@ -56,6 +56,7 @@ export default function DeleteAccount() {
         <li style={li}>Your food, workout, weight, sleep and step logs.</li>
         <li style={li}>Food photos, body scan photos and results, and uploaded lab results.</li>
         <li style={li}>Your plans, streaks, XP and posts.</li>
+        <li style={li}>Ratings you gave AI answers, and anything you chose to share with them.</li>
       </ul>
 
       <h2 style={h2}>What is kept</h2>

@@ -10,7 +10,7 @@ export default function TermsOfService() {
   return (
     <div style={page}>
       <h1 style={h1}>Terms of Service</h1>
-      <p style={updated}>Last updated: 21 August 2026 · Effective: 21 August 2026</p>
+      <p style={updated}>Last updated: 12 September 2026 · Effective: 12 September 2026</p>
 
       <p style={intro}>
         These terms are the agreement between you and <strong>INFLUOGEN LLC</strong> (&ldquo;we&rdquo;,
@@ -86,6 +86,14 @@ export default function TermsOfService() {
         photos so your diary works, or showing your community post to that community. This
         licence ends when you delete the content or your account, except for copies in backups
         that have not yet rolled off, and for messages other people have already received.
+      </p>
+      <p style={p}>
+        If you switch on <strong>Help improve our AI</strong> in Settings → AI Data Usage, you
+        also let us use the content you choose to attach to a rating of an AI answer — the
+        answer and your message — to review and improve our AI features, as described in section
+        4.1 of our{" "}
+        <a href="/privacy" style={contact}>Privacy Policy</a>. It is off unless you turn it on.
+        Switching it off ends this permission and deletes what you shared under it.
       </p>
       <p style={p}>
         You confirm you have the right to upload what you upload, and that it does not break
