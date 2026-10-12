@@ -11,7 +11,7 @@ export default function PrivacyPolicy() {
   return (
     <div style={page}>
       <h1 style={h1}>Privacy Policy</h1>
-      <p style={updated}>Last updated: 12 September 2026 · Effective: 12 September 2026</p>
+      <p style={updated}>Last updated: 12 October 2026 · Effective: 12 October 2026</p>
 
       <p style={intro}>
         FunFit AI is a health and fitness app operated by <strong>INFLUOGEN LLC</strong>, a
@@ -68,7 +68,7 @@ export default function PrivacyPolicy() {
       <ul style={ul}>
         <li style={li}>Direct messages, group messages, photo albums and voice notes you send.</li>
         <li style={li}>Who you follow and who follows you, and your leaderboard entries.</li>
-        <li style={li}>Posts you share to the community feed, including any workout photos attached to them.</li>
+        <li style={li}>Posts you share to the Feed or to a community, including photos, captions, likes, comments and replies, and the Feed sharing choices you make.</li>
         <li style={li}>Messages you exchange with the AI coach and the AI nutrition chat.</li>
       </ul>
 
@@ -126,6 +126,7 @@ export default function PrivacyPolicy() {
             <tr><td style={td}>AI coach and nutrition chat</td><td style={td}>Your messages, plus a summary of your profile</td></tr>
             <tr><td style={td}>Voice logging and voice notes</td><td style={td}>The audio recording, for transcription</td></tr>
             <tr><td style={td}>Meal and workout plan generation</td><td style={td}>Your profile, goals and training preferences</td></tr>
+            <tr><td style={td}>Photo moderation</td><td style={td}>Photos posted to the Feed or to groups, checked automatically for nudity and other content that breaks our rules</td></tr>
           </tbody>
         </table>
       </div>
@@ -203,15 +204,35 @@ export default function PrivacyPolicy() {
         visible only to you and the person you are messaging.
       </p>
       <p style={p}>
-        Your body scan photos, your food photos, your lab results, your weight history and
-        anything you share to help improve our AI are <strong>private</strong> and are never
-        shown to other users.
+        <strong>The Feed.</strong> FunFit has a Feed where members share their activity. The first
+        time you open it, we ask whether your workouts, photo food scans and Physique Score should
+        post there automatically. Nothing is posted until you choose, and you can change each of
+        these any time in Settings. A post can show:
+      </p>
+      <ul style={ul}>
+        <li style={li}><strong>Workouts:</strong> the workout&rsquo;s name and stats (such as type, duration, distance, pace, calories, sets, reps and volume), and any photo you add.</li>
+        <li style={li}><strong>Photo food scans:</strong> the dish name, calories and macros, and the food photo.</li>
+        <li style={li}><strong>Physique Score:</strong> your score, tier and change since your last scan, but never your body scan photos.</li>
+        <li style={li}><strong>Posts you make yourself:</strong> your photo and caption.</li>
+      </ul>
+      <p style={p}>
+        Feed posts, together with your username, display name and avatar, are visible to all
+        signed-in FunFit members, who can like them, comment and reply. Your exact location, your
+        notes and your body scan photos are never added to a post automatically. You can delete any
+        post at any time. Deleting the workout, meal or scan a post came from also deletes the
+        post. People you block can&rsquo;t see your posts, and you won&rsquo;t see theirs.
+      </p>
+      <p style={p}>
+        Your body scan photos, your lab results, your weight history and anything you share to
+        help improve our AI are <strong>private</strong> and are never shown to other users. Your
+        food photos are private too, unless you choose to share photo food scans to the Feed.
       </p>
 
       <h2 style={h2}>7. How long we keep it</h2>
       <ul style={ul}>
         <li style={li}><strong>While your account exists:</strong> your profile, logs, photos and message history stay available so the app can show you your own history.</li>
         <li style={li}><strong>After you delete your account:</strong> we remove your profile, logs, photos, scans, lab results and message content within 30 days.</li>
+        <li style={li}><strong>Feed posts</strong> stay until you delete them, delete the workout, meal or scan they came from, or delete your account. Posts that several members report are hidden while we review them, and posts that break our rules are removed.</li>
         <li style={li}><strong>Messages you sent to other people</strong> are replaced with a &ldquo;deleted&rdquo; placeholder rather than removed outright, so other participants&rsquo; conversations stay readable.</li>
         <li style={li}><strong>Content you shared with AI ratings</strong> is kept for up to 12 months, or until you switch <strong>Help improve our AI</strong> off, whichever comes first. Ratings without content stay while your account exists.</li>
         <li style={li}><strong>Purchase and tax records</strong> are kept for as long as the law requires, typically seven years. These contain no health data.</li>
