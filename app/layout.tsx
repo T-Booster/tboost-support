@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "FunFit AI — Support",
-  description: "Support and help for FunFit AI health optimization app",
+  title: "FunFit — Support",
+  description: "Support and help for FunFit health optimization app",
 };
 
 export default function RootLayout({

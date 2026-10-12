@@ -12,7 +12,7 @@ export default function SupportPage() {
       {/* Header */}
       <header style={{ textAlign: 'center', marginBottom: '50px' }}>
         <h1 style={{ fontSize: '2.5rem', marginBottom: '10px', color: 'var(--heading)' }}>
-          FunFit AI — Support
+          FunFit — Support
         </h1>
         <p style={{ fontSize: '1.1rem', color: 'var(--muted)' }}>
           Your AI-powered health optimization companion
@@ -48,9 +48,9 @@ export default function SupportPage() {
         <h2>Frequently Asked Questions</h2>
 
         <div style={{ marginTop: '30px' }}>
-          <h3 style={{ color: 'var(--accent)' }}>What is FunFit AI?</h3>
+          <h3 style={{ color: 'var(--accent)' }}>What is FunFit?</h3>
           <p>
-            FunFit AI is an iOS health optimization app featuring AI-powered food scanning,
+            FunFit is an iOS health optimization app featuring AI-powered food scanning,
             a personalized hormone optimization score, gamified daily challenges, global leaderboards,
             workout and sleep tracking, and an AI health chat for personalized insights.
           </p>
@@ -80,7 +80,7 @@ export default function SupportPage() {
         <div style={{ marginTop: '30px' }}>
           <h3 style={{ color: 'var(--accent)' }}>Do I need a subscription?</h3>
           <p>
-            FunFit AI requires a paid subscription for full access. You can explore the app
+            FunFit requires a paid subscription for full access. You can explore the app
             with a free trial, but a subscription is needed to use all features.
           </p>
         </div>
@@ -89,7 +89,7 @@ export default function SupportPage() {
           <h3 style={{ color: 'var(--accent)' }}>How do I cancel my subscription?</h3>
           <p>
             To cancel your subscription, open the iOS Settings app → tap your name → Subscriptions →
-            select FunFit AI → tap &quot;Cancel Subscription&quot;. You&apos;ll retain access until the current
+            select FunFit → tap &quot;Cancel Subscription&quot;. You&apos;ll retain access until the current
             billing period ends.
           </p>
         </div>
@@ -105,7 +105,7 @@ export default function SupportPage() {
       }}>
         <h3 style={{ marginTop: 0, color: 'var(--warn-text)' }}>Medical Disclaimer</h3>
         <p style={{ fontSize: '0.95rem', color: 'var(--warn-text)', margin: 0 }}>
-          FunFit AI is for informational purposes only and is not a substitute for professional
+          FunFit is for informational purposes only and is not a substitute for professional
           medical advice, diagnosis, or treatment. Always consult your physician before making
           any health-related decisions or starting new nutrition or fitness programs.
         </p>

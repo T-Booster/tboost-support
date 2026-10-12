@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { page, h1, updated, intro, h2, h3, p, ul, li, table, th, td, callout, contact } from "../legalStyles";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — FunFit AI",
+  title: "Privacy Policy — FunFit",
   description:
-    "How FunFit AI collects, uses, shares and retains your data, including health and fitness data.",
+    "How FunFit collects, uses, shares and retains your data, including health and fitness data.",
 };
 
 export default function PrivacyPolicy() {
@@ -14,10 +14,10 @@ export default function PrivacyPolicy() {
       <p style={updated}>Last updated: 12 October 2026 · Effective: 12 October 2026</p>
 
       <p style={intro}>
-        FunFit AI is a health and fitness app operated by <strong>INFLUOGEN LLC</strong>, a
+        FunFit is a health and fitness app operated by <strong>INFLUOGEN LLC</strong>, a
         limited liability company registered in Florida, United States. This policy explains
         exactly what we collect, where it goes, how long we keep it, and what you can make us
-        do about it. It covers the FunFit AI iOS and Android apps and this website.
+        do about it. It covers the FunFit iOS and Android apps and this website.
       </p>
 
       <div style={callout}>
@@ -106,7 +106,7 @@ export default function PrivacyPolicy() {
 
       <h2 style={h2}>4. AI processing, and what goes to OpenAI</h2>
       <p style={p}>
-        Several FunFit AI features are powered by large language models operated by{" "}
+        Several FunFit features are powered by large language models operated by{" "}
         <strong>OpenAI</strong>. When you use them, the relevant content leaves your device and
         is sent to OpenAI for analysis. Specifically:
       </p>
@@ -138,14 +138,14 @@ export default function PrivacyPolicy() {
         app works without them.
       </p>
       <div style={callout}>
-        <strong>AI output is not medical advice.</strong> FunFit AI is not a medical device and
+        <strong>AI output is not medical advice.</strong> FunFit is not a medical device and
         does not diagnose, treat or prevent any condition. Nutrition estimates, body-composition
         estimates and any commentary on lab values are informational only and can be wrong.
         Always talk to a qualified healthcare professional before acting on them, and never
         ignore medical advice because of something this app told you.
       </div>
 
-      <h3 style={h3}>4.1 Helping improve FunFit AI (optional)</h3>
+      <h3 style={h3}>4.1 Helping improve FunFit (optional)</h3>
       <p style={p}>
         Our AI features make mistakes, and the quickest way for us to find them is for you to
         tell us. Where the app offers it — today, coach and nutrition chat replies and food scan
@@ -155,7 +155,7 @@ export default function PrivacyPolicy() {
       <ul style={ul}>
         <li style={li}><strong>Off unless you turn it on.</strong> The <strong>Help improve our AI</strong> switch (Settings → AI Data Usage) starts off. You do not need it for any feature, and turning it on or off does not change what the app does for you.</li>
         <li style={li}><strong>What it shares.</strong> Only content attached to a rating you actively give: the AI&rsquo;s answer, your message or description (for chats, also the few messages just before it), your comment, and details of the result or profile the AI used. Photos are not included. Nothing is shared for answers you do not rate, and we never include data read from Apple Health or Health Connect.</li>
-        <li style={li}><strong>Who sees it.</strong> Only the people at FunFit AI who work on our AI features. It is never shown to other users, never sold, never used for advertising, and not given to anyone except Supabase, which stores it for us.</li>
+        <li style={li}><strong>Who sees it.</strong> Only the people at FunFit who work on our AI features. It is never shown to other users, never sold, never used for advertising, and not given to anyone except Supabase, which stores it for us.</li>
         <li style={li}><strong>How we use it.</strong> To understand what went wrong, improve the instructions our AI features follow, and check that our fixes work. We do not use it to train or fine-tune an AI model, and we do not send it to OpenAI for training. If we ever want to use it in a new way, we will ask you again first.</li>
         <li style={li}><strong>How long we keep it.</strong> Up to 12 months from when you shared it, then we delete the content. The rating itself, without any content, stays while your account exists.</li>
         <li style={li}><strong>Changing your mind.</strong> Turn the switch off at any time. We then delete the content you shared under it, usually immediately and always within 30 days. Deleting your account deletes all of it.</li>
@@ -198,7 +198,7 @@ export default function PrivacyPolicy() {
       <h2 style={h2}>6. What other people can see</h2>
       <p style={p}>
         Some things are public inside the app by design. Your username, display name, avatar,
-        level, streak and leaderboard position are visible to other FunFit AI users. Posts you
+        level, streak and leaderboard position are visible to other FunFit users. Posts you
         share to a community, and any photo attached to them, are visible to that community.
         Messages you send in a group are visible to that group&rsquo;s members. Direct messages are
         visible only to you and the person you are messaging.
@@ -283,7 +283,7 @@ export default function PrivacyPolicy() {
 
       <h2 style={h2}>10. Children</h2>
       <p style={p}>
-        FunFit AI is not intended for anyone under 13, and we do not knowingly collect data from
+        FunFit is not intended for anyone under 13, and we do not knowingly collect data from
         them. In the EU and UK, if you are under the age at which you can consent for yourself
         (13 to 16 depending on the country), a parent or guardian must agree on your behalf. If
         you believe a child has given us data, email us and we will delete it.

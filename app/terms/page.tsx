@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { page, h1, updated, intro, h2, p, ul, li, callout, contact } from "../legalStyles";
 
 export const metadata: Metadata = {
-  title: "Terms of Service — FunFit AI",
-  description: "The agreement between you and INFLUOGEN LLC for using FunFit AI.",
+  title: "Terms of Service — FunFit",
+  description: "The agreement between you and INFLUOGEN LLC for using FunFit.",
 };
 
 export default function TermsOfService() {
@@ -14,13 +14,13 @@ export default function TermsOfService() {
 
       <p style={intro}>
         These terms are the agreement between you and <strong>INFLUOGEN LLC</strong> (&ldquo;we&rdquo;,
-        &ldquo;us&rdquo;), a Florida limited liability company, covering your use of the FunFit AI apps
-        and this website. By creating an account or using FunFit AI, you agree to them. If you
+        &ldquo;us&rdquo;), a Florida limited liability company, covering your use of the FunFit apps
+        and this website. By creating an account or using FunFit, you agree to them. If you
         do not agree, do not use the app.
       </p>
 
       <div style={callout}>
-        <strong>FunFit AI is not a doctor and is not a medical device.</strong> It does not
+        <strong>FunFit is not a doctor and is not a medical device.</strong> It does not
         diagnose, treat, cure or prevent any disease. Nutrition estimates, body-composition
         scores, hormone-related scores and any commentary on blood test results are for general
         information only, are frequently approximate, and can be wrong. Talk to a qualified
@@ -29,14 +29,14 @@ export default function TermsOfService() {
         If you think you have a medical emergency, call your local emergency number.
       </div>
 
-      <h2 style={h2}>1. Who can use FunFit AI</h2>
+      <h2 style={h2}>1. Who can use FunFit</h2>
       <p style={p}>
         You must be at least 13 years old. If you are under the age of digital consent where you
         live (13 to 16 in the EU and UK), a parent or guardian must agree to these terms for
-        you. You must not use FunFit AI if we have previously banned you.
+        you. You must not use FunFit if we have previously banned you.
       </p>
       <p style={p}>
-        FunFit AI is built for generally healthy adults. It is not designed for people who are
+        FunFit is built for generally healthy adults. It is not designed for people who are
         pregnant, who have an eating disorder or a history of one, or who have a medical
         condition affected by diet or exercise. If any of those apply to you, please speak to
         your doctor before using it.
@@ -52,7 +52,7 @@ export default function TermsOfService() {
 
       <h2 style={h2}>3. Subscriptions and payment</h2>
       <ul style={ul}>
-        <li style={li}>FunFit AI requires a paid subscription. Prices and billing periods are shown in the app before you buy.</li>
+        <li style={li}>FunFit requires a paid subscription. Prices and billing periods are shown in the app before you buy.</li>
         <li style={li}>Payment is taken by Apple or Google, not by us. We never see your card details.</li>
         <li style={li}>Subscriptions renew automatically until you cancel. Cancel at least 24 hours before the period ends, through your Apple or Google account settings — we cannot cancel it for you.</li>
         <li style={li}>Refunds are handled by Apple or Google under their own policies. We can ask on your behalf but cannot grant them.</li>
@@ -61,7 +61,7 @@ export default function TermsOfService() {
 
       <h2 style={h2}>4. Community rules</h2>
       <p style={p}>
-        FunFit AI includes messaging, groups and public communities. When you post or send
+        FunFit includes messaging, groups and public communities. When you post or send
         anything, you agree not to:
       </p>
       <ul style={ul}>
@@ -116,7 +116,7 @@ export default function TermsOfService() {
 
       <h2 style={h2}>7. What we do not promise</h2>
       <p style={p}>
-        FunFit AI is provided &ldquo;as is&rdquo;. To the fullest extent the law allows, we disclaim all
+        FunFit is provided &ldquo;as is&rdquo;. To the fullest extent the law allows, we disclaim all
         warranties, express or implied, including merchantability, fitness for a particular
         purpose, and non-infringement. We do not warrant that the app will be uninterrupted or
         error-free, that its estimates will be accurate, or that using it will produce any
@@ -127,7 +127,7 @@ export default function TermsOfService() {
       <p style={p}>
         To the fullest extent the law allows, INFLUOGEN LLC is not liable for indirect,
         incidental, special, consequential or punitive damages, or for lost profits, data or
-        goodwill, arising from your use of FunFit AI. Our total liability for any claim is
+        goodwill, arising from your use of FunFit. Our total liability for any claim is
         limited to the greater of the amount you paid us in the twelve months before the claim,
         or one hundred US dollars.
       </p>
@@ -145,7 +145,7 @@ export default function TermsOfService() {
 
       <h2 style={h2}>10. Suspension and termination</h2>
       <p style={p}>
-        You can stop using FunFit AI and delete your account whenever you like. We may suspend
+        You can stop using FunFit and delete your account whenever you like. We may suspend
         or terminate your account if you break these terms, if we are required to by law, or if
         we discontinue the service. If we discontinue it, we will give you reasonable notice and
         a way to export your data.
@@ -171,7 +171,7 @@ export default function TermsOfService() {
       <h2 style={h2}>12. Changes</h2>
       <p style={p}>
         We may update these terms. If a change materially affects your rights we will tell you
-        in the app before it takes effect. Continuing to use FunFit AI after that means you
+        in the app before it takes effect. Continuing to use FunFit after that means you
         accept the new terms.
       </p>
 

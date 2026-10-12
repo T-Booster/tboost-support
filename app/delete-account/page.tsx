@@ -5,25 +5,25 @@ import { page, h1, updated, intro, h2, p, ul, li, callout, contact } from "../le
 // request deletion of their account and data. It is linked from the Play
 // Console Data safety form, so keep the URL (/delete-account) stable.
 export const metadata: Metadata = {
-  title: "Delete your account — FunFit AI",
+  title: "Delete your account — FunFit",
   description:
-    "How to delete your FunFit AI account and the data associated with it, from the app or by email.",
+    "How to delete your FunFit account and the data associated with it, from the app or by email.",
 };
 
 export default function DeleteAccount() {
   return (
     <div style={page}>
       <h1 style={h1}>Delete your FunFit account</h1>
-      <p style={updated}>FunFit AI · INFLUOGEN LLC</p>
+      <p style={updated}>FunFit · INFLUOGEN LLC</p>
 
       <p style={intro}>
-        You can delete your FunFit AI account and the data linked to it at any time, either
+        You can delete your FunFit account and the data linked to it at any time, either
         directly in the app or by emailing us. Deleting your account is permanent.
       </p>
 
       <h2 style={h2}>Option 1: in the app</h2>
       <ul style={ul}>
-        <li style={li}>Open FunFit AI and sign in.</li>
+        <li style={li}>Open FunFit and sign in.</li>
         <li style={li}>Go to the <strong>Profile</strong> tab, then <strong>Settings</strong>.</li>
         <li style={li}>Tap <strong>Delete account</strong> and confirm.</li>
       </ul>
