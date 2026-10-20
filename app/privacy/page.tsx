@@ -11,7 +11,7 @@ export default function PrivacyPolicy() {
   return (
     <div style={page}>
       <h1 style={h1}>Privacy Policy</h1>
-      <p style={updated}>Last updated: 12 October 2026 · Effective: 12 October 2026</p>
+      <p style={updated}>Last updated: 20 October 2026 · Effective: 20 October 2026</p>
 
       <p style={intro}>
         FunFit is a health and fitness app operated by <strong>INFLUOGEN LLC</strong>, a
@@ -56,7 +56,7 @@ export default function PrivacyPolicy() {
       <ul style={ul}>
         <li style={li}><strong>Apple Health / Health Connect.</strong> With your permission we <em>read</em> steps, workouts, sleep, and body measurements. We never write data back to Apple Health, and we never use Health data for advertising or data mining.</li>
         <li style={li}><strong>Food logs.</strong> Photos of meals, text descriptions, barcodes and nutrition-label photos, and the resulting calories, macronutrients, sugar, sodium and fibre.</li>
-        <li style={li}><strong>Body scan photos.</strong> If you use Body Scan, the photos you take of yourself from up to four angles, and the body-composition estimates derived from them.</li>
+        <li style={li}><strong>Body scan photos.</strong> If you use Body Scan, the photos you take of yourself from up to four angles, and the body-composition estimates derived from them. The photos stay on your phone: they are sent to OpenAI to be scored (section 4) and are not stored on our servers. The scores are kept with your account.</li>
         <li style={li}><strong>Blood test results.</strong> If you upload a lab report, the biomarker values in it and the file itself.</li>
         <li style={li}><strong>Weight and body-composition history</strong> that you log over time.</li>
         <li style={li}><strong>Workouts.</strong> Type, duration, distance, splits, and manually entered steps.</li>
@@ -75,7 +75,9 @@ export default function PrivacyPolicy() {
       <h3 style={h3}>2.4 Technical and commercial</h3>
       <ul style={ul}>
         <li style={li}>A device push-notification token, so we can send you notifications.</li>
-        <li style={li}>Subscription status and purchase events. Payment is handled entirely by Apple or Google — we never see your card number.</li>
+        <li style={li}>Subscription status and purchase events. In the apps, payment is handled entirely by Apple or Google — we never see your card number.</li>
+        <li style={li}>If you buy FunFit Premium on a website (for example a creator&rsquo;s bundle), Stripe processes the payment. We receive your email address, what you bought, the price and the date, so we can add Premium to your FunFit account. We never see your card number.</li>
+        <li style={li}>Install attribution: when you install FunFit from one of our links or ads, AppsFlyer tells us which link, creator or campaign the install came from, and whether it led to a subscription. On iPhone, the advertising identifier is used only if you allow tracking when the app asks.</li>
         <li style={li}>Basic product analytics: which screens you open and which features you use, together with your age and your stated goal.</li>
       </ul>
 
@@ -182,6 +184,8 @@ export default function PrivacyPolicy() {
             <tr><td style={td}>Apple (APNs) / Google (FCM)</td><td style={td}>Push notification delivery</td><td style={td}>Only what a notification preview shows</td></tr>
             <tr><td style={td}>Superwall</td><td style={td}>Subscription paywall and entitlement state</td><td style={td}>No — age band and goal only</td></tr>
             <tr><td style={td}>Mixpanel</td><td style={td}>Product analytics</td><td style={td}>No — usage events, age and goal</td></tr>
+            <tr><td style={td}>AppsFlyer</td><td style={td}>Install attribution: which link, creator or ad an install came from</td><td style={td}>No — device and install, trial and purchase events</td></tr>
+            <tr><td style={td}>Stripe</td><td style={td}>Payments for FunFit Premium bought on a website</td><td style={td}>No — email address and purchase details</td></tr>
             <tr><td style={td}>Nutritionix, USDA FoodData Central, Open Food Facts</td><td style={td}>Nutrition database lookups</td><td style={td}>Food names and quantities only</td></tr>
             <tr><td style={td}>ElevenLabs</td><td style={td}>Text-to-speech playback</td><td style={td}>Only the text being spoken</td></tr>
             <tr><td style={td}>Strava, WHOOP</td><td style={td}>Only if you connect them yourself</td><td style={td}>Yes, for what you choose to sync</td></tr>
@@ -224,7 +228,8 @@ export default function PrivacyPolicy() {
       </p>
       <p style={p}>
         Your body scan photos, your lab results, your weight history and anything you share to
-        help improve our AI are <strong>private</strong> and are never shown to other users. Your
+        help improve our AI are <strong>private</strong> and are never shown to other users. Body
+        scan photos are not kept on our servers at all; they stay on your phone. Your
         food photos are private too, unless you choose to share photo food scans to the Feed.
       </p>
 
@@ -232,6 +237,7 @@ export default function PrivacyPolicy() {
       <ul style={ul}>
         <li style={li}><strong>While your account exists:</strong> your profile, logs, photos and message history stay available so the app can show you your own history.</li>
         <li style={li}><strong>After you delete your account:</strong> we remove your profile, logs, photos, scans, lab results and message content within 30 days.</li>
+        <li style={li}><strong>Body scan photos</strong> are not kept on our servers. They stay on your phone until you delete the scan or the app. Copies made by earlier versions of the app were deleted in October 2026.</li>
         <li style={li}><strong>Feed posts</strong> stay until you delete them, delete the workout, meal or scan they came from, or delete your account. Posts that several members report are hidden while we review them, and posts that break our rules are removed.</li>
         <li style={li}><strong>Messages you sent to other people</strong> are replaced with a &ldquo;deleted&rdquo; placeholder rather than removed outright, so other participants&rsquo; conversations stay readable.</li>
         <li style={li}><strong>Content you shared with AI ratings</strong> is kept for up to 12 months, or until you switch <strong>Help improve our AI</strong> off, whichever comes first. Ratings without content stay while your account exists.</li>
@@ -273,9 +279,9 @@ export default function PrivacyPolicy() {
 
       <h2 style={h2}>9. Security</h2>
       <p style={p}>
-        Data is encrypted in transit. Your body scan photos, lab results, direct messages, voice
-        notes and anything you share with AI ratings are held in private storage that other
-        users cannot read. Access to
+        Data is encrypted in transit. Your lab results, direct messages, voice notes and anything
+        you share with AI ratings are held in private storage that other users cannot read. Body
+        scan photos are not stored on our servers at all. Access to
         production systems is limited to the people who need it. No system is perfectly secure,
         and we will tell you and the relevant regulator without undue delay if a breach affects
         your data.

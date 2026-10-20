@@ -10,7 +10,7 @@ export default function TermsOfService() {
   return (
     <div style={page}>
       <h1 style={h1}>Terms of Service</h1>
-      <p style={updated}>Last updated: 12 September 2026 · Effective: 12 September 2026</p>
+      <p style={updated}>Last updated: 20 October 2026 · Effective: 20 October 2026</p>
 
       <p style={intro}>
         These terms are the agreement between you and <strong>INFLUOGEN LLC</strong> (&ldquo;we&rdquo;,
@@ -53,10 +53,11 @@ export default function TermsOfService() {
       <h2 style={h2}>3. Subscriptions and payment</h2>
       <ul style={ul}>
         <li style={li}>FunFit requires a paid subscription. Prices and billing periods are shown in the app before you buy.</li>
-        <li style={li}>Payment is taken by Apple or Google, not by us. We never see your card details.</li>
+        <li style={li}>In the apps, payment is taken by Apple or Google, not by us. We never see your card details.</li>
         <li style={li}>Subscriptions renew automatically until you cancel. Cancel at least 24 hours before the period ends, through your Apple or Google account settings — we cannot cancel it for you.</li>
         <li style={li}>Refunds are handled by Apple or Google under their own policies. We can ask on your behalf but cannot grant them.</li>
         <li style={li}>If we change the price, we will tell you before it applies to you.</li>
+        <li style={li}><strong>Premium bought on a website.</strong> Some partners sell FunFit Premium on their own website, for example together with an e-book. INFLUOGEN LLC is the seller and Stripe takes the payment. The website shows the price, what is included and how long Premium lasts before you pay. Premium bought this way belongs to the email address you paid with: sign in to FunFit with that email, or open the unlock link shown after you pay. It does not renew automatically. Refunds follow the terms shown on that website.</li>
       </ul>
 
       <h2 style={h2}>4. Community rules</h2>
